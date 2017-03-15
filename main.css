@@ -5,7 +5,7 @@ main {
 label {
 	margin-bottom: 10px;
 }
-li {
+.account {
 	list-style: none;
 	display: inline-block;
 }
@@ -47,9 +47,12 @@ input {
 	height: 25px;
 }
 .glass {
-	height: 28px;
-	width: 28px;
-	border: 1px black solid;
+	height: 37px;
+	width: auto;
+	border: 1px lightgrey solid;
+  vertical-align: bottom;
+  line-height: 30px;
+  background-color: #fff;
 }
 table {
 	margin-top: 25px;
@@ -61,11 +64,33 @@ table {
 .search {
 	font-size: 16px;
 }
-.clear {
-	font-size: 0px;
-	margin-bottom: 25px;
+.searchinput{
+   border: 1px solid #dddddd;
+   padding: 3px 5px;
+   height: 30px;
+   line-height: 30px;
 }
 .results {
 	list-style: none;
 	display: block;
+  padding-left:0px;
+}
+.pager {
+  margin: 25px 0;
+}
+.results span {
+  color: #999;
+  margin-right: 10px;
+}
+.results li {
+  margin-bottom: 15px;
+}
+.results a {
+  color: blue
+}
+a:hover{
+  text-decoration:underline;
+}
+.pager a {
+  color: black;
 }
