@@ -50,9 +50,9 @@ input {
 	height: 37px;
 	width: auto;
 	border: 1px lightgrey solid;
-  vertical-align: bottom;
-  line-height: 30px;
-  background-color: #fff;
+	vertical-align: bottom;
+	line-height: 30px;
+	background-color: #fff;
 }
 table {
 	margin-top: 25px;
@@ -65,32 +65,41 @@ table {
 	font-size: 16px;
 }
 .searchinput{
-   border: 1px solid #dddddd;
-   padding: 3px 5px;
-   height: 30px;
-   line-height: 30px;
+	border: 1px solid #dddddd;
+	padding: 3px 5px;
+	height: 30px;
+	line-height: 30px;
 }
 .results {
 	list-style: none;
 	display: block;
-  padding-left:0px;
+	padding-left:0px;
 }
 .pager {
-  margin: 25px 0;
+	margin: 25px 0;
 }
 .results span {
-  color: #999;
-  margin-right: 10px;
+	color: #999;
+	margin-right: 10px;
 }
 .results li {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 .results a {
-  color: blue
+	color: blue
 }
 a:hover{
-  text-decoration:underline;
+	text-decoration:underline;
 }
 .pager a {
-  color: black;
+	color: black;
+}
+.pager div:nth-child(1) {
+	border-right: 0px;
+}
+.pager div:nth-child(3) {
+	border-left: 0px;
+}
+img {
+	height: 30px;
 }
